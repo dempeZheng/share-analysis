@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="false">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="analysis" />
+        <module name="mq" />
+        <module name="share-common" />
+        <module name="share-dms" />
+        <module name="share-web" />
+        <module name="shareQueue" />
+        <module name="spark-analysis" />
+        <module name="sparkReport" />
+      </profile>
+      <profile default="false" name="Annotation profile for shareQueue (1) (cn.sharesdk)" enabled="true">
+        <sourceOutputDir name="share-queue/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="share-queue/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="analysis" target="1.6" />
+      <module name="kafka-hadoop" target="1.6" />
+      <module name="share-common" target="1.6" />
+      <module name="share-dms" target="1.6" />
+      <module name="share-web" target="1.6" />
+      <module name="shareWeb" target="1.6" />
+      <module name="spark-analysis" target="1.6" />
+      <module name="sparkReport" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

@@ -1,0 +1,1 @@
+1.set REPORT_HOME first. eg: export REPORT_HOME=/home/report/report2.0

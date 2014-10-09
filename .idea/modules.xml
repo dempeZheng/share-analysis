@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/share-analysis.iml" filepath="$PROJECT_DIR$/share-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-common/share-common.iml" filepath="$PROJECT_DIR$/share-common/share-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-dms/share-dms.iml" filepath="$PROJECT_DIR$/share-dms/share-dms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-web/share-web.iml" filepath="$PROJECT_DIR$/share-web/share-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-analysis/spark-analysis.iml" filepath="$PROJECT_DIR$/spark-analysis/spark-analysis.iml" />
+    </modules>
+  </component>
+</project>
+
